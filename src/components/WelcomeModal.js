@@ -177,7 +177,7 @@ const WelcomeModal = ({ isVisible, onClose }) => {
                 <InfoIconWrapper>
             <InfoIcon />
             <InfoTooltip>
-              Portfolio - Navaneethan KV, Front End Developer | React.js
+              Portfolio - Sivaneshwaran G, Developer|| Automation tester
             </InfoTooltip>
           </InfoIconWrapper>
 
@@ -187,11 +187,11 @@ const WelcomeModal = ({ isVisible, onClose }) => {
           <p style={{ color: '#575c66', marginBottom: '10px' }}>If you have any questions or would like to collaborate, don't hesitate to reach out!</p>
           <p style={{ color: '#575c66', marginBottom: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             Looking forward to connect! 
-            <LinkedInLink href="https://www.linkedin.com/in/manjineshwaran-g-47242b1b7/" target="_blank">
+            <LinkedInLink href="https://www.linkedin.com/in/sivaneshwaran-ganesan-044516212/" target="_blank">
               <IconWrapper><LinkedInIcon /></IconWrapper>
-              <LinkedInTooltip>Manjineshwaran</LinkedInTooltip>
+              <LinkedInTooltip>Sivaneshwaran</LinkedInTooltip>
             </LinkedInLink>
-            <PhoneLink href="tel:+918300503218">
+            <PhoneLink href="tel:+917418758688">
               <IconWrapper><MobileFriendlyIcon /></IconWrapper>
               <PhoneTooltip>Contact Me</PhoneTooltip>
             </PhoneLink>

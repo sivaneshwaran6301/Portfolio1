@@ -119,15 +119,15 @@ function App() {
                         <Skills />
                         <Visionary />
                     </Wrapper>
-                    <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                    {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
                     <Wrapper>
                         <Education />
                         <Contact />
                     </Wrapper>
                     <Footer />
-                    {openModal.state && (
+                    {/* {openModal.state && (
                         <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-                    )}
+                    )} */}
                     <ScrollIndicatorWrapper visible={scrollVisible} onClick={scrollToTop}>
                         <ArrowIcon />
                         <ScrollPercentage>{Math.round(scrollPercentage)}%</ScrollPercentage>

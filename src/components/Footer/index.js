@@ -95,7 +95,7 @@ const Copyright = styled.p`
 `;
 
 const YourComponent = () => {
-  const yourWhatsAppNumber = "+918300503218"; // Replace with your WhatsApp number
+  const yourWhatsAppNumber = "+917418758688"; // Replace with your WhatsApp number
   const handleWhatsAppClick = () => {
     const defaultMessage = "Hi there! I'm interested in learning more about your offerings.";
     const whatsappLink = `https://wa.me/${yourWhatsAppNumber}?text=${encodeURIComponent(defaultMessage)}`;
@@ -105,7 +105,7 @@ const YourComponent = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Manjineshwaran</Logo>
+        <Logo>Sivaneshwaran</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -140,13 +140,13 @@ const YourComponent = () => {
           </CustomTooltip>
           {/* WhatsApp Icon with Custom Tooltip */}
           <CustomTooltip title="WhatsApp" arrow>
-            <SocialMediaIcon href="https://wa.me/+918300503218" target="display" onClick={handleWhatsAppClick}>
+            <SocialMediaIcon href="https://wa.me/+917418758688" target="display" onClick={handleWhatsAppClick}>
               <WhatsAppIcon />
             </SocialMediaIcon>
           </CustomTooltip>
           {/* GitHub Icon with Custom Tooltip */}
           <CustomTooltip title="GitHub" arrow>
-            <SocialMediaIcon href="https://github.com/Manjineshwaran" target="_blank">
+            <SocialMediaIcon href="https://github.com/sivaneshwaran6301" target="_blank">
               <GitHubIcon />
             </SocialMediaIcon>
           </CustomTooltip>

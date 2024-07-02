@@ -146,80 +146,10 @@ export default function Contact() {
   const [buttonText, setButtonText] = useState("Send");
   const form = useRef();
 
-  // const speakSuccessMessage = () => {
-  //   const message = "Your email sent successfully. Have a good day.";
-  //   const utterance = new SpeechSynthesisUtterance(message);
-  //   utterance.lang = "en-IN"; // Set Indian accent
-  //   speechSynthesis.speak(utterance);
-  // };
-  const speakSuccessMessage = (userName) => {
-    const message = `Hey ${userName}, your email sent successfully. Have a good day.`;
-    const utterance = new SpeechSynthesisUtterance(message);
-    utterance.lang = "en-IN"; // Set Indian accent
-    speechSynthesis.speak(utterance);
-  };
-  
-
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
-  //   setButtonText("Sending...");
-  //   const formData = new FormData(event.target);
-
-  //   formData.append("access_key", "89c046ff-8f76-47dd-9562-7105809a3576");
-
-  //   const response = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     body: formData
-  //   });
-
-  //   const data = await response.json();
-
-  //   if (data.success) {
-  //     setResult("Form submitted successfully"); // Updated success message
-  //     speakSuccessMessage(); // Call text-to-speech function
-  //     setButtonText("Thanks for contacting");
-  //     event.target.reset();
-  //   } else {
-  //     console.log("Error", data);
-  //     setResult(data.message);
-  //     setButtonText("Send");
-  //   }
-  // };
-
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
-  //   setButtonText("Sending...");
-  //   const formData = new FormData(event.target);
-  
-  //   formData.append("access_key", "89c046ff-8f76-47dd-9562-7105809a3576");
-  
-  //   const response = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     body: formData
-  //   });
-  
-  //   const data = await response.json();
-  
-  //   if (data.success) {
-  //     // Retrieve user's name from the form input
-  //     const userName = formData.get("name");
-      
-  //     // Update success message to include the user's name
-  //     setResult(`Thanks for contacting, ${userName}!`);
-      
-  //     speakSuccessMessage();
-  //     setButtonText("Thanks for contacting");
-  //     event.target.reset();
-  //   } else {
-  //     console.log("Error", data);
-  //     setResult(data.message);
-  //     setButtonText("Send");
-  //   }
-  // };
 
   const sendEmail = (e)=>{
 e.preventDefault();
-emailjs.sendForm('service_anzczv9', 'template_4wa0d36',e.target,'09foqUoUodqlopxlN')
+emailjs.sendForm('service_qmqkch8', 'template_5cor4e9',e.target,'ZpBhHKTk5dsSbGkuS')
 .then((result)=>{
 console.log(result.text)
 console.log(e.target)
@@ -230,44 +160,6 @@ alert ("Thanks for your email. I will get back to you soon")
 })
 
   }
-  
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
-  //   setButtonText("Sending...");
-  //   const formData = new FormData(event.target);
-  
-  //   formData.append("access_key", "89c046ff-8f76-47dd-9562-7105809a3576");
-  
-  //   const response = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     body: formData
-  //   });
-  
-  //   const data = await response.json();
-  
-  //   if (data.success) {
-  //     // Retrieve user's name from the form input
-  //     const userName = formData.get("name");
-      
-  //     // Update success message to include the user's name
-  //     setResult(`Thanks for contacting, ${userName}!`);
-      
-  //     speakSuccessMessage(userName); // Pass userName to the function
-  //     setButtonText("Thanks for contacting");
-  //     event.target.reset();
-  //   } else {
-  //     console.log("Error", data);
-  //     setResult(data.message);
-  //     setButtonText("Send");
-  //   }
-  // };
-  
-
-  // const handleAlertClose = () => {
-  //   setResult("");
-  //   setButtonText("Send"); // Reset button text when Snackbar closes
-  // };
-
   return (
     <Container>
       <Wrapper>
