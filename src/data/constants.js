@@ -1,16 +1,17 @@
 export const Bio = {
-  name: "Sivaneshwaran ",
+  name: "Sivaneshwaran G",
   roles: [
     "Functional Testing",
-    "React Developer",
+    "Automation Testing",
+    "Manual Testing",
     "Full Stack Developer"
     
   ],
   description:
-    "A skilled developer with a strong portfolio, passionate about staying updated on frontend tech. Collaborative and committed to quality, you thrive in dynamic teams. Eager to contribute creativity and bring innovative ideas to life.",
+    "A skilled Software Tester with a strong portfolio, passionate about staying updated on Functional and Automation Testing. Collaborative and committed to quality, you thrive in dynamic teams. Eager to contribute creativity and bring innovative ideas to life.",
   github: "https://github.com/sivaneshwaran6301",
   resume:
-    "https://drive.google.com/file/d/1YLzAwklsTdLkVHfMRuSnVofIgC2OvLhn/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ENlPiIajTVu-GST_zUqVGhYCzERFlA6_/view",
   linkedin: "https://www.linkedin.com/in/sivaneshwaran-ganesan-044516212/",
   email: "mailto:sivaneshwaran631@gmail.com",
   insta: "https://www.instagram.com/sivaneshwaran_.g/",
@@ -129,7 +130,7 @@ export const experiences = [
     role: "Personalisation",
     abt: "A glimpse of my individuality",
     
-    desc: "As a budding React application , I'm fervently dedicated to crafting web experiences that transcend the ordinary, infusing every pixel with elegance and enchantment . My unwavering passion for unraveling intricate challenges fuels my odyssey in the realm of front-end wizardry . The prospect of harmonizing with a dynamic ensemble , while imbibing wisdom from industry sages , thrills me as I amplify my proficiencies in this ever-mutating domain.",
+    desc: "I believe that great software isn't just built — it's tested into excellence. As a quality advocate, my mission is to ensure every product delivers a seamless, secure, and reliable experience. I don’t just find bugs — I find blind spots, surface risks, and champion the user in every stage of the development lifecycle. With a mindset rooted in curiosity, detail, and empathy, I aim to bridge the gap between code and confidence. Whether it’s manual exploratory testing, automation, or performance analysis, I bring precision and purpose to every test case. In a fast-paced digital world, I strive to be the silent force behind products that users can trust — and teams can be proud of.",
    
   },
   {
@@ -137,7 +138,7 @@ export const experiences = [
     
     role: "Reason to hire me",
     abt: "What Sets Me Apart.",
-    desc: "Aspiring Developer passionate about crafting exceptional user experiences. I bring fresh perspectives, boundless ambition, and unconventional thinking to every project. My goal is to create digital magic through energetic, innovative work. Let's connect and embark on a journey to bring unique, ambitious, and engaging experiences to life.",
+    desc: "I don’t just test software — I protect the user experience. As a detail-oriented and quality-driven tester, I bring a mindset of prevention over reaction. I anticipate issues before they reach production, saving teams from costly fixes and users from frustrating experiences. With a foundation in manual testing and growing expertise in automation and agile QA, I ensure quality across every layer — from UI to backend. I communicate clearly, document thoroughly, and always think like a user.",
   
   },
  
@@ -150,9 +151,9 @@ export const education = [
     
     school: "Cognizant Technology Solution",
     date: "Jul 2022-Present",
-    grade: "Professional",
+    grade: "Associate",
     desc: "Collaborated with cross-functional teams to gather and analyze business requirements. Created reports and data visualizations using SQL and business intelligence tools. Developing internal application with react-js, javascript to generate random test data for testers. Writing test cases according to business requirement and execute using both manual and automation. Analyze and execute on both functional and non functional testing. Maintaining jira board to track sprint items and using jira xray for testing purpose.",
-    degree: "Programmer Analyst",
+    degree: "Senior Test Analyst",
   },
   {
     id: 3,
@@ -220,4 +221,5 @@ export const TimeLineData = [
   { year: 2022, text: "Completed my Bachelor's" },
   { year: 2022, text: "Started my career as Programmer Analyst Trainee" },
   { year: 2023, text: "Started my career as Programmer Analyst" },
+  { year: 2025, text: "Started my career as Associate" },
 ];
